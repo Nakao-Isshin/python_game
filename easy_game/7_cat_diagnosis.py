@@ -28,7 +28,7 @@ root.title("ネコ度診断アプリ")
 root.resizable(False, False)
 canvas = tkinter.Canvas(root, width=800, height=600)
 canvas.pack()
-gazou = tkinter.PhotoImage(file="sumire.png")
+gazou = tkinter.PhotoImage(file="easy_game/sumire.png")
 canvas.create_image(400, 300, image=gazou)
 button = tkinter.Button(text="診断する", font=(
     "Times New Roman", 32), bg="lightgreen", command=click_btn)
